@@ -11,7 +11,6 @@ if(message && branchname){
                 let {errormessage,stdout,stderr} =  execSync(`git push -u origin "${branchname}"`)
                     if(!errormessage){
                         console.log("successfully pushed your code to github")
-                        console.log(stdout)
                     }
             }
         }
