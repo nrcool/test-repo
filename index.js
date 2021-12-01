@@ -1,4 +1,5 @@
-const {exec, execSync} =require("child_process")
+#! /usr/bin/env node
+const {execSync} = require("child_process")
 
 const [message, branchname] = process.argv.slice(2)
 
